@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fortune-cookie/precache-manifest.566854ff6bcd20529975b636c4ba21db.js"
+  "/fortune-cookie/precache-manifest.b3a8089e93c5f4f041faa5e8c3351dc4.js"
 );
 
 self.addEventListener('message', (event) => {

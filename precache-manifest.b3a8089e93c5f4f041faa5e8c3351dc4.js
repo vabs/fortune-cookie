@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd1394a44525d5b61c03605ac0df2aaf",
+    "revision": "3b00d7c26cd31ff67b8b6980a851beaf",
     "url": "/fortune-cookie/index.html"
   },
   {
