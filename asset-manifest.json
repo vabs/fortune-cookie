@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fortune-cookie/static/css/main.14e47d8e.chunk.css",
+    "main.js": "/fortune-cookie/static/js/main.ae9de60a.chunk.js",
+    "main.js.map": "/fortune-cookie/static/js/main.ae9de60a.chunk.js.map",
+    "runtime-main.js": "/fortune-cookie/static/js/runtime-main.d08f8bb8.js",
+    "runtime-main.js.map": "/fortune-cookie/static/js/runtime-main.d08f8bb8.js.map",
+    "static/js/2.5bce8356.chunk.js": "/fortune-cookie/static/js/2.5bce8356.chunk.js",
+    "static/js/2.5bce8356.chunk.js.map": "/fortune-cookie/static/js/2.5bce8356.chunk.js.map",
+    "index.html": "/fortune-cookie/index.html",
+    "precache-manifest.c17e28555d661ffdca692c86598e6457.js": "/fortune-cookie/precache-manifest.c17e28555d661ffdca692c86598e6457.js",
+    "service-worker.js": "/fortune-cookie/service-worker.js",
+    "static/css/main.14e47d8e.chunk.css.map": "/fortune-cookie/static/css/main.14e47d8e.chunk.css.map",
+    "static/js/2.5bce8356.chunk.js.LICENSE.txt": "/fortune-cookie/static/js/2.5bce8356.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/fortune-cookie/static/media/cookie.beabd248.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d08f8bb8.js",
+    "static/js/2.5bce8356.chunk.js",
+    "static/css/main.14e47d8e.chunk.css",
+    "static/js/main.ae9de60a.chunk.js"
+  ]
+}
