@@ -1,20 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  position: relative;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgba(244, 113, 113, 0.99);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +17,95 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h1 {
+  letter-spacing: 6px;
+  font-size: 3.4em;
+  font-family: 'Rochester', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fortune {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 1.6em;
+  padding: 5px;
 }
+
+.fortune-wrapper {
+  background-image: url('cookie.png');
+  height: 400px;
+  z-index: 100;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 20px 50px;
+  background-color: rgba(255, 200, 112, 1);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.custom-shape-divider-bottom-1591662039 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1591662039 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+}
+
+.custom-shape-divider-bottom-1591662039 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+  .App-header h1 {
+    font-size: 2em;
+  }
+  .fortune-wrapper {
+    height: 250px;
+    background-size: 250px;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 2em;
+  }
+  .fortune-wrapper {
+    height: 300px;
+    background-size: 300px;
+  }
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .App-header h1 {
+    font-size: 3em;
+  }
+  .fortune-wrapper {
+    height: 400px;
+    background-size: 600px;
+  }
+ }
