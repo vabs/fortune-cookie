@@ -105,7 +105,10 @@
     font-size: 3em;
   }
   .fortune-wrapper {
-    height: 400px;
+    height: 300px;
     background-size: 600px;
+  }
+  .custom-shape-divider-bottom-1591662039 {
+    bottom: -22px;
   }
  }
